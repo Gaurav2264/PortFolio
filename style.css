@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #040430;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #252550;
+  }
+
+  span {
+    color: #00ffff;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  nav ul li a:hover {
+    color: #00ffff;
+    box-shadow: 0 0 7px #00ffff;
+    border-radius: 100px;
+    font-size: 17px;
+  }
+  main hr {
+    border: 0px;
+    background: #d0bfdf;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+  .logo {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+  }
+
+  .leftsec {
+    margin: 50px;
+    font-size: 3rem;
+    display: inline;
+    width: 30%;
+  }
+
+  .leftt {
+    color: #8225d3;
+    font-size: 50px;
+  }
+  .btn {
+    display: flex;
+    align-content: center;
+    width: fit-content;
+    height: 20px;
+    font: 15px;
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #eee;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+  }
+  .btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .btn:hover {
+    background: linear-gradient(90deg, #0d7199 0%, #7b2ba9 100%);
+    border-radius: 7px;
+    box-shadow: 0 0 20px #5b1fa4;
+  }
+  .rightsec {
+    font-size: 40px;
+    display: inline;
+    width: 40%;
+  }
+  .rightsec img {
+    width: 500px;
+    margin: 50px 5px;
+  }
+  .second h1 {
+    align-items: center;
+    text-align: center;
+    max-width: 50vm;
+    margin: 40px;
+  }
+  .sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+  }
+
+  .leftabt {
+    margin: 50px;
+    font-size: 3rem;
+    display: flex;
+    align-content: space-between;
+
+    width: 80%;
+  }
+  .leftabt img {
+    width: 500px;
+    margin: 50px 5px;
+  }
+
+  .rightabt {
+    font-size: 40px;
+    width: 50%;
+    margin: right 20px;
+  }
+  .rightabt p {
+    text-indent: 2.0px;
+    font-size: 22px;
+  }
+
+  .third_sec {
+    display: inline;
+    max-width: 80vm;
+    margin: 80px;
+  }
+  .third_sec h1 {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+  }
+  .skills {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+  }
+  .technical {
+    display: inline;
+    margin: 40px;
+    padding: 80px;
+    font-size: 25px;
+  }
+  .technical progress {
+    width: 400px;
+    height: 20px;
+  }
+  .progress-bar {
+    width: 450px;
+    background-color: #f2f2f2;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .progress_html {
+    text-align: right;
+    width: 95%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_css {
+    text-align: right;
+    width: 85%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  
+  .progress_js {
+    text-align: right;
+    width: 80%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_php {
+    text-align: right;
+    width: 75%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_cs {
+    text-align: right;
+    width: 75%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_cpp {
+    text-align: right;
+    width: 85%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_java {
+    text-align: right;
+    width: 80%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .progress_commu {
+    text-align: right;
+    width: 95%; /* Change this value to represent the progress */
+    padding: 0%;
+    height: 100%;
+    background-color: #32f1d4;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+
+  .progress-bar:hover {
+    width: 450px;
+    background-color: #f2f2f2;
+    height: 21px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px #5b1fa4;
+  }
+  .profes {
+    margin-left: 130px;
+    padding: 80px;
+    font-size: 25px;
+  }
+  
+  .head {
+    font-size: 25px;
+    text-align: center;
+  }
+  .contact_content {
+    margin-top: 80px;
+    display: flex;
+    align-content: space-between;
+  }
+  .left_con {
+    margin: auto;
+    padding: 50px 23px;
+  }
+  .contact_form {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: 20px 0;
+    padding: 50px 0px;
+  }
+  .contact_details {
+    list-style-type: none;
+    line-height: 60px;
+  }
+  .right {
+    font-weight: 800;
+    font-size: 20px;
+    width: 130px;
+    color: #f9f9f9;
+  }
+  .left {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    width: 130px;
+    padding-left: 20px;
+    color: #8730d3;
+  }
+  .right_con {
+    margin: auto;
+    padding: 33px 0px;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+   
+  }
+
+  
+  .footer-social {
+    align-content: space-between;
+    margin: 20px 23px;
+  }
+  .icons {
+    height: 50px;
+    word-spacing: 10px;
+  }
+  .footer-social .icons:hover{
+    height: 70px;
+    
+    box-shadow: 0 0 7px #5b1fa4;
+
+  }
+  .last_p{
+    color: #8b342a;
+    text-align:center;
+    margin: 10px 20px;
+  }
